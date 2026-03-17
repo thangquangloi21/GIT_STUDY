@@ -59,3 +59,9 @@ git reset --hard origin/main
 ```
 ⚠️ Nếu bạn có thay đổi chưa add hoặc commit nhưng muốn xoá luôn:
 Không cần làm gì thêm — reset hard sẽ xoá sạch.
+
+
+- Để push đè lên commit trên GitHub (force push), bạn dùng lệnh:
+  ```bash
+git push -f origin main
+```
