@@ -62,6 +62,6 @@ Không cần làm gì thêm — reset hard sẽ xoá sạch.
 
 
 - Để push đè lên commit trên GitHub (force push), bạn dùng lệnh:
-  ```bash
+```bash
 git push -f origin main
 ```
