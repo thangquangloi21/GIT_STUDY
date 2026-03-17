@@ -1,41 +1,34 @@
-# 🚀 Tên Dự Án
+# 🚀 Học git cùng Lợi
 
-Mô tả ngắn về dự án: Dự án giúp làm gì? Ai dùng?
+### Cài Đặt
 
----
-
-## 📖 Giới thiệu
-
-Nói rõ hơn về mục đích dự án, bài toán giải quyết, bối cảnh.
-
----
-
-## 📸 Demo / Screenshot
-
-![Demo](link_ảnh_demo)
-
----
-
-## ✨ Tính năng
-
-- ✔️ Tính năng 1  
-- ✔️ Tính năng 2  
-- ✔️ Tính năng 3  
-
----
-
-## 🛠 Công nghệ sử dụng
-
-- Node.js  
-- React / Vue / Angular  
-- Express  
-- MongoDB  
-
----
-
-## 🚀 Cài đặt
-
-### 1. Clone repo
 ```bash
-git clone https://github.com/yourname/yourproject.git
-cd yourproject
+pip install flask
+```
+
+### Khởi Động Server
+```bash
+python main.py
+```
+Server chạy trên `http://localhost:5555`
+
+### Kiểm Tra Server
+```bash
+curl http://localhost:5555/
+```
+
+### Gọi API Refresh Dữ Liệu
+```bash
+curl -X POST http://localhost:5555/api/inventory
+```
+
+## 📝 Xem Log
+
+Log được lưu trong thư mục `Log/`:
+- File: `log_YYYY-MM-DD.txt`
+- Ví dụ: `Log/log_2026-01-14.txt`
+
+```bash
+# Xem log real-time
+type Log\log_2026-01-14.txt
+```
