@@ -76,3 +76,11 @@ git branch -D master
 git branch -m master
 git push -f company master
 ```
+- Commit lỗi
+```bash
+git rm -r --cached .
+git add .
+git commit -m ".gitignore is now working"
+```
+
+
