@@ -65,3 +65,14 @@ Không cần làm gì thêm — reset hard sẽ xoá sạch.
 ```bash
 git push -f origin main
 ```
+
+- Xóa commit hiện tại và đẩy vào nhánh mới
+```bash
+git checkout master
+git checkout --orphan clean-history
+git add .
+git commit -m "Initial commit"
+git branch -D master
+git branch -m master
+git push -f company master
+```
