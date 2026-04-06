@@ -83,4 +83,10 @@ git add .
 git commit -m ".gitignore is now working"
 ```
 
+- sửa lỗi env shell
+  Mở powershell admin run lệnh sau
+ ```bash
+Set-ExecutionPolicy RemoteSigned
+``` 
+
 
