@@ -90,3 +90,16 @@ Set-ExecutionPolicy RemoteSigned
 ``` 
 
 
+- Tạo nhánh mới để lưu code khi update version
+Nhớ commit nhánh mới nhất lên rồi mới tạo nhánh mới nhé !
+ ```bash
+ -- tạo 1 nhánh mới
+git checkout -b version-1
+-- đẩy lên remote
+git push -u origin version-1
+-- sau khi push thành công thì kiểm tra lại và quay lạnh nhánh main code tiếp.
+git checkout main
+-- Code tiếp thôi
+``` 
+
+
